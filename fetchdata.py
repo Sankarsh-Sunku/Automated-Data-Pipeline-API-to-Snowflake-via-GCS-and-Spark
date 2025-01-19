@@ -15,7 +15,7 @@ def upload_to_gcs(bucket,path, file):
 
 def fetch_data_from_api():
     today = date.today()
-    apiKey = "0b0d6e1f1c404a1f91cf577714fff132"
+    apiKey = "*******************************"
     base_url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey={}"
     # base_url = "https://newsapi.org/v2/everything?q={}&from={}&to={}&sortBy=popularity&apiKey={}&language=en"
     start_date_value = str(today - datetime.timedelta(days=1))
