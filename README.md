@@ -3,7 +3,7 @@ This repository contains a fully automated data transformation pipeline leveragi
 
 # Key Features:
 
-Real-time Data Ingestion: Fetches news data via API and stores it in GCS.
-Data Transformation: Uses PySpark to transform raw data and stores it back in GCS.
-Airflow Orchestration: Automates the entire pipeline, including Dataproc cluster creation, Spark job execution, and data loading into Snowflake.
-Snowflake Integration: Data is transferred from GCS to Snowflake for efficient storage and analysis.
+#### Real-time Data Ingestion: Fetches news data via API and stores it in GCS.
+#### Data Transformation: Uses PySpark to transform raw data and stores it back in GCS.
+#### Airflow Orchestration: Automates the entire pipeline, including Dataproc cluster creation, Spark job execution, and data loading into Snowflake.
+#### Snowflake Integration: Data is transferred from GCS to Snowflake for efficient storage and analysis.
